@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This is
+         a website that teaches HTML and CSS">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1">
+        <meta name="keywords" content="coding,html,css"?>
+        <title>First_website_html_css</title>
+        <link rel="stylesheet" href="web_Css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    </head>
+    <body>
+<!--------------------navigation bar----------------------->
+        <section class="header">
+            <nav class="nav-bar">
+                <div><a href="we_htML.html"><img src="/Users/abdullahibnmasud/python-vs-code/practice/untitled_folder/logo.png" class="logo"></a></div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="">home</a></li>
+                            <li><a href="">about</a></li>
+                            <li><a href="">course</a></li>
+                            <li><a href="">blog</a></li>
+                            <li><a href="">contact</a></li>
+                        </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav> 
+        <div class="text-box">
+            <h1>biggest secrect house</h1>
+            <p>when bruce was little,but understood wayne's industry a scam
+                he moved here with alfred.<br>he took training  here from salina
+                and alfred.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Gotham_(TV_series)" class="hero-btn">visit us to know</a>
+        </div>
+        </section>
+        
+<!-----javascript for toggle menu in navigation bar---->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right= "0";
+            }
+            function hideMenu(){
+                navLinks.style.right= "-200px";
+            }
+        </script>
+
+<!---------------------------------course-------------------->
+        <section class="course">
+            <h2>training course</h2>
+            <p>i was a boy who was only one witness of murder of parents<br>
+                i had many things to do but i coundn't do those because i was afraid<br>
+                i have now one thing to do.<br>
+                "learning lessons from event"</p>
+            <div class="row">
+                <div class="course-col1">
+                    <h3>riding</h3>
+                    <p>riding is for balancing and moving</p>
+                </div>
+                <div class="course-col2">
+                    <h3>shooting</h3>
+                    <p>shooting is for attacking</p>
+                </div>
+                <div class="course-col3">
+                    <h3>hill</h3>
+                    <p>hill is for jumping,hiding and hiking </p>
+                </div>
+            </div>
+        </section>
+<!------------------------houses---------------------------->
+        <section class="campus">
+            <h1>houses</h1>
+            <p>each houses are built in proper manner.<br>
+            They are perfect place for getting training</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="/Users/abdullahibnmasud/python-vs-code/practice/untitled_folder/camimg1.jpg">
+                    <div class="layer">
+                        <h3>london</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="/Users/abdullahibnmasud/python-vs-code/practice/untitled_folder/camimg2.jpg">
+                    <div class="layer">
+                        <h3>rassia</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="/Users/abdullahibnmasud/python-vs-code/practice/untitled_folder/camimg3.jpg">
+                    <div class="layer">
+                        <h3>india</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!----------------facility------------->
+        <section class="facilities">
+            <h1>our facility</h1>
+            <p>hiking,riding,archarey,religious training,bombing</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="/Users/abdullahibnmasud/python-vs-code/practice/untitled_folder/camimg4.jpg">
+                    <h3>african class </h3>
+                    <p>trained people at 1990</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="/Users/abdullahibnmasud/python-vs-code/practice/untitled_folder/camimg4.jpg">
+                    <h3>indian class </h3>
+                    <p>trained people at 2000</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="/Users/abdullahibnmasud/python-vs-code/practice/untitled_folder/camimg4.jpg">
+                    <h3>american class </h3>
+                    <p>trained people at 2010</p>
+                </div>
+            </div>
+        </section>
+<!-------------------testimonial--------------------->
+        <section class="testimonial">
+            <h1>what they said</h1>
+            <p>no!no!dont come if you can't survive!</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="/Users/abdullahibnmasud/python-vs-code/practice/untitled_folder/people1.png">
+                    <div class="col">    
+                        <p>they have good class system</p>
+                        <h1>oliver qween</h1>
+                        <div class="col-row">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="/Users/abdullahibnmasud/python-vs-code/practice/untitled_folder/people2.png">
+                    <div class="col">
+                        <p>they have nice class system</p>
+                        <h1>slade wilson</h1>
+                        <div class="col-row">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-------------------footer------------------------->
+        <section class="footer">
+            <div class="last">
+                <address>jahir rayhan road<br>
+                    buet,dhaka</address>
+                <email>mtrsaumik@gmail.com</email>
+                <contact>01906475302</contact>
+            </div>
+        </section>
+
+
+
+    </body>
+</html>
